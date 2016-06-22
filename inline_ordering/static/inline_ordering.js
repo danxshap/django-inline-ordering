@@ -65,9 +65,9 @@ var InlineOrdering = {
             InlineOrdering.jQuery(this).find('h3').append('<span class="position">#' + (i + 1).toFixed() + '</span>');
         });
     }
-    
+
 };
 
 django.jQuery(function () {
-    InlineOrdering.init(django.jQuery);
+    InlineOrdering.init(jQuery);
 });
