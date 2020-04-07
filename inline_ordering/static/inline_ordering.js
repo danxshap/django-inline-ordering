@@ -68,6 +68,6 @@ var InlineOrdering = {
 
 };
 
-django.jQuery(function () {
+jQuery(function () {
     InlineOrdering.init(jQuery);
 });
